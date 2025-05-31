@@ -1,6 +1,8 @@
 # KeijinRadio
 
-Radio-Streaming for Turtle WoW (1.12.x)
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+
+🎧 Radio-Streaming for Turtle WoW (1.12.x)
 
 ---
 
@@ -8,61 +10,66 @@ Radio-Streaming for Turtle WoW (1.12.x)
 
 **EN:**  
 KeijinRadio is a lightweight, in-game radio player for **Turtle WoW Classic (v1.12.x)**.  
-It allows you to stream curated **HTTP** radio stations directly from within the game.  
-Perfect for background music during roleplay, questing, or just chilling in Stormwind.
+It allows you to stream curated **HTTP MP3 radio stations** directly from within the game.  
+Perfect for background music while roleplaying, questing, or relaxing in Stormwind.
 
 **DE:**  
 KeijinRadio ist ein schlankes Ingame-Radio für **Turtle WoW Classic (v1.12.x)**.  
-Es ermöglicht das direkte Abspielen ausgewählter **HTTP-Radiosender** im Spiel.  
-Ideal für Hintergrundmusik beim Questen, Rollenspielen oder einfach beim Entspannen in Ironforge.
+Es ermöglicht das direkte Abspielen ausgewählter **HTTP MP3-Radiosender** im Spiel.  
+Ideal für Hintergrundmusik beim Questen, Rollenspielen oder beim Entspannen in Ironforge.
 
 ---
 
 ## 🎵 Features / Funktionen
 
-- Works with direct **HTTP MP3 streams** (no HTTPS!)
+- Works with direct **HTTP MP3 streams** (⚠️ no HTTPS)
 - Simple UI with dropdown station selector
-- Toggle button to **play / stop**
-- **Mute checkbox** to stop playback without switching
-- Optimized for Turtle WoW (Classic engine limitations respected)
+- Toggle button to **Play / Stop**
+- **Mute checkbox** to stop audio without changing stations
+- Fully compatible with Turtle WoW's 1.12 engine limitations
 
 ---
 
 ## ⚠ Limitations / Einschränkungen
 
-- ❌ No HTTPS (WoW 1.12 does not support it)  
-- ❌ No playlists or local folders  
-- ✅ Only direct `.mp3` stream URLs are supported
+- ❌ No HTTPS support  
+- ❌ No playlist files or local directory scanning  
+- ✅ Only direct `.mp3` stream URLs supported (via `PlayMusic()`)
 
 ---
 
 ## 📦 Installation
 
-1. Download the ZIP from the [Releases](https://github.com/KeijinDE/KeijinRadio/releases) tab.
-2. Extract into your `_classic_/Interface/AddOns/` folder.
-3. The folder structure must look like this:
+1. Download the latest ZIP from the [Releases](https://github.com/KeijinDE/KeijinRadio/releases) tab.
+2. Extract it so the folder path looks exactly like this:
 
-Interface/AddOns/KeijinRadio/
+```
+World of Warcraft\_classic_\Interface\AddOns\KeijinRadio\
 ├── main.lua
 ├── ui.lua
 ├── streams.lua
 ├── KeijinRadio.toc
 ├── LICENSE
-└── Docs/
+└── Docs\
+    ├── changelog.txt
+    ├── devnotes.txt
+    └── readme.md
+```
 
+> ⚠️ Make sure **no additional folder levels** are created during extraction (e.g. `KeijinRadio-main/KeijinRadio/` is invalid!)
 
 ---
 
-## 🔧 Slash Command
+## 🧪 Usage
 
-- `/radio` – Toggle the radio frame
+- Use the slash command `/radio` in-game to toggle the radio interface.
+- Select a station from the dropdown to start playback.
+- Use **Stop** to pause or **Mute** to silence temporarily.
 
 ---
 
 ## 🧑‍💻 License
 
-MIT License  
-Developed by **Keijin** for Turtle WoW  
-No affiliation with Blizzard Entertainment or Turtle WoW team
-
----
+**MIT License**  
+Developed with 💚 by **Keijin**  
+Not affiliated with Blizzard Entertainment or the Turtle WoW team.
