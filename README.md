@@ -1,6 +1,6 @@
 # KeijinRadio
 
-|cff88ff88[KeijinAddons]|r – Radio-Streaming for Turtle WoW (1.12.x)
+Radio-Streaming for Turtle WoW (1.12.x)
 
 ---
 
