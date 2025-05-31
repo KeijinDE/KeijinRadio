@@ -38,7 +38,7 @@ Ideal für Hintergrundmusik beim Questen, Rollenspielen oder einfach beim Entspa
 
 ## 📦 Installation
 
-1. Download the ZIP from the [Releases](https://github.com/YourName/KeijinRadio/releases) tab.
+1. Download the ZIP from the [Releases](https://github.com/KeijinDE/KeijinRadio/releases) tab.
 2. Extract into your `_classic_/Interface/AddOns/` folder.
 3. The folder structure must look like this:
 
