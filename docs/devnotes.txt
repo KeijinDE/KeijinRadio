@@ -1,0 +1,15 @@
+KeijinRadio – Developer Notes (EN/DE)
+
+EN:
+- WoW 1.12 does not support HTTPS or playlist files
+- Only direct HTTP MP3 streams allowed
+- PlayMusic() works for local files only if in AddOn folder
+- No directory scanning or auto-playlists possible
+- Mute is simulated using PlayMusic("silence.mp3") or StopMusic()
+
+DE:
+- WoW 1.12 unterstützt kein HTTPS oder Playlist-Dateien
+- Nur direkte HTTP-MP3-Streams erlaubt
+- PlayMusic() funktioniert nur mit lokalen Dateien im AddOn-Ordner
+- Kein Verzeichnis-Scanning oder automatische Playlists möglich
+- Mute wird simuliert über PlayMusic("silence.mp3") oder StopMusic()

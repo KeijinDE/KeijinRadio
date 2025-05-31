@@ -1,0 +1,18 @@
+KeijinRadio – Changelog (EN/DE)
+
+v0.5.0 Beta
+EN:
+- Added working HTTP streams (Classic FM, SlayRadio, SomaFM)
+- Implemented dropdown stream selection
+- Auto-play on selection
+- Stop button functionality
+- Replaced volume slider with mute toggle
+- Fixed UI errors and startup logic
+
+DE:
+- Funktionierende HTTP-Streams hinzugefügt (Classic FM, SlayRadio, SomaFM)
+- Dropdown-Auswahl integriert
+- Automatische Wiedergabe nach Auswahl
+- Stop-Knopf funktioniert
+- Lautstärkeregler entfernt, stattdessen Mute-Schalter
+- UI-Fehler und Startlogik behoben
